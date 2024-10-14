@@ -1,5 +1,5 @@
-Sistema de gestión de notebooks :laptop:
-Descripción del Proyecto :memo:
+# Sistema de gestión de notebooks
+## Descripción del Proyecto :memo:
 
 Este proyecto es un sistema de gestión de notebooks (computadoras portátiles) desarrollado en JavaScript (vanilla) para el frontend y Spring Boot para el backend, con una base de datos MySQL.
 
@@ -14,7 +14,7 @@ Requerimientos Funcionales :clipboard:
         Una tabla para mostrar todas las notebooks almacenadas.
         Funcionalidades para modificar o eliminar notebooks.
 
-Tecnologías Utilizadas :wrench:
+### Tecnologías Utilizadas :wrench:
 
     Frontend:
         JavaScript (Vanilla)
@@ -40,7 +40,7 @@ Tecnologías Utilizadas :wrench:
     Eliminar una notebook:
     El usuario puede eliminar notebooks de la base de datos.
 
-Pruebas Unitarias y Funcionales :test_tube:
+### Pruebas Unitarias y Funcionales :test_tube:
 
 Se han implementado pruebas unitarias para el backend, asegurando que las operaciones CRUD sobre las notebooks se realicen de manera correcta. También se ha probado la API utilizando Postman para garantizar la integridad de los datos y las respuestas de la API.
 Objetivos Alcanzados :trophy:
@@ -49,7 +49,7 @@ Objetivos Alcanzados :trophy:
     Creación de una interfaz de usuario sencilla y eficaz usando JavaScript.
     Integración exitosa de frontend y backend.
     Pruebas unitarias para validar la lógica de negocio en el backend.
-Demostración Visual :camera_flash:
+### Demostración Visual :camera_flash:
 
 Aquí está un ejemplo de cómo se ve la aplicación:
 
