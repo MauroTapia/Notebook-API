@@ -99,7 +99,7 @@ public class NotebookServiceTest {
         assertThat(notebookActualizada.getBrand()).isEqualTo("acer");
     }
 
-    @DisplayName("Test para elminar un noteboko")
+    @DisplayName("Test para elminar un notebook")
     @Test
     void testEliminarNotebook(){
         long notebookId = 1L;

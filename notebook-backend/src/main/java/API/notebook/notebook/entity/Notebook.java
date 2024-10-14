@@ -17,17 +17,17 @@ public class Notebook {
     @Column(name = "id")
     private Long id;
     @Column(name = "brand", nullable = false)
-    private String brand;       // Marca (ej: Dell, HP)
+    private String brand;
     @Column(name = "model", nullable = false)
-    private String model;       // Modelo (ej: Inspiron 15)
+    private String model;
     @Column(name = "processor", nullable = false)
-    private String processor;   // Procesador (ej: Intel i5)
+    private String processor;
     @Column(name = "ram", nullable = false)
-    private int ram;            // Memoria RAM (en GB)
+    private int ram;
     @Column(name = "storage", nullable = false)
-    private String storage;        // Almacenamiento (en GB)
+    private String storage;
     @Column(name = "gpu", nullable = false)
-    private String gpu;         // Tarjeta gráfica (si tiene)
+    private String gpu;
     @Column(name = "price", nullable = false)
     private double price;
 
