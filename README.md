@@ -22,11 +22,12 @@ Requerimientos Funcionales :clipboard:
     Backend:
         Spring Boot (Java)
         MySQL (Base de datos)
+        H2 (Base de datos independiente para los test)
     Otras herramientas:
         Git & GitHub para control de versiones
         Postman para probar la API
 
-        Flujo del Proyecto :arrow_forward:
+        Flujo del Proyecto:
 
     Crear una notebook:
     El usuario puede ingresar los detalles de una nueva notebook (Marca, Modelo, Procesador, etc.) en el formulario y guardarla en la base de datos.
